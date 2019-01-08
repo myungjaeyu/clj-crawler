@@ -1,4 +1,5 @@
-(ns crawler.core)
+(ns crawler.core
+  (:require [crawler.service.core :refer [get-okky]]))
 
 (defn -main []
-  (println "crawler"))
+  (println (get-okky "392686")))
