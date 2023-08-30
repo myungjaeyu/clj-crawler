@@ -3,7 +3,7 @@
 
 ## Usage
 
-```
+```bash
 $ lein run
 ```
 
